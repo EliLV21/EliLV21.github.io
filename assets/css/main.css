@@ -1,0 +1,100 @@
+*{
+	text-align: center;
+}
+@font-face {
+  font-family: "LaneSub";
+  src: url("../fonts/LANEUP_.ttf");
+}
+@font-face {
+  font-family: "Lane";
+  src: url("../fonts/LANENAR.ttf");
+}
+/*.oculto{
+	display: none;
+}*/
+body{
+	font-family: 'Lane', sans-serif;
+}
+/* ---NAV--- */
+.container {
+  width: 100%;
+  max-width:initial;
+}
+.container > .row {
+  margin: 0;
+}
+.container > .row > .col {
+  padding: 0;
+}
+.nav{
+	background-color: rgba(156, 104, 79, .5);
+}
+a{
+	font-size: 2rem;
+}
+#logo{
+	width: 15%;
+	margin-top: .5%;
+	margin-left: 3%;
+}
+/* ---SOBRE-MI--- */
+#foto-personal{
+	width: 100%;
+	z-index: 1;
+	/*margin-top: 5%;*/
+}
+#titulo{
+	font-family: 'LaneSub', sans-serif;
+	font-weight: bolder;
+	font-size: 5em;
+	padding: 0;
+	margin: 0;
+}
+#sobre-mi{
+	background-image: url(../img/5.png);
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 0;
+	padding-top: 3%;
+	padding-bottom: 6%;
+	color: #000;
+}
+.textoTamanio{
+  font-size: 1.5rem;
+}
+.textoTamanio-medio{
+	font-size: 1rem;
+	line-height: normal;
+}
+.textoFijo{
+  font-size: 2rem;
+  background-color: rgba(156, 104, 79, .6);
+  border-radius: 10%;
+  padding: 10%;
+}
+#nombre{
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 5px 5px 5px #151515;
+  line-height: 2rem;
+}
+#carrera{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Lane', sans-serif;
+  color: #633812;
+}
+#fortalezas{
+  background-color: #fff;
+  padding-top: 6%;
+  padding-bottom: 7%;
+}
+#proyectos{
+  padding-top: 6.5%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/6.png);
+  padding-bottom: 10%;
+  background-attachment: fixed;
+  padding-bottom: 3%;
+}

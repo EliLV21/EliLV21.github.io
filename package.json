@@ -1,0 +1,27 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliLV21/EliLV21.github.io.git"
+  },
+  "author": "Miriam Elizabeth Laguna Velazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliLV21/EliLV21.github.io/issues"
+  },
+  "homepage": "https://github.com/EliLV21/EliLV21.github.io#readme",
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-obfuscate": "^0.2.9",
+    "gulp-uglify": "^3.0.0",
+    "materialize-css": "^0.100.1",
+    "skeleton-css": "^2.0.4"
+  }
+}
