@@ -8,6 +8,7 @@ var rutas = {
 	rutaCSS: 'assets/css/*.css',
 	rutaJS: 'assets/js/*.js',
 	rutaImg: 'assets/img/*',
+	rutaFonts: 'assets/fonts/*',
 	rutaViews: 'views/*.html',
 	rutaAssets: 'public/assets',
 	rutaNodeModules: 'node_modules/'
@@ -26,6 +27,11 @@ gulp.task("assets", function(){
 gulp.task("views", function(){
 	gulp.src(rutas.rutaViews)
 	.pipe(gulp.dest("public/views"))
+});
+
+gulp.task("fonts", function(){
+	gulp.src(rutas.rutaFonts)
+	.pipe(gulp.dest(rutas.rutaAssets + "/fonts"))
 });
 
 gulp.task("imgs", function(){
