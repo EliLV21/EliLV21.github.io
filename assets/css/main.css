@@ -3,11 +3,11 @@
 }
 @font-face {
   font-family: "LaneSub";
-  src: url("../../fonts/LANEUP_.ttf");
+  src: url("../fonts/LANEUP_.ttf");
 }
 @font-face {
   font-family: "Lane";
-  src: url("../../fonts/LANENAR.ttf");
+  src: url("../fonts/LANENAR.ttf");
 }
 /*.oculto{
 	display: none;
