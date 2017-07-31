@@ -44,6 +44,13 @@ gulp.task('prepararJS', function(){
 	.pipe(browserify())
 	.pipe( gulp.dest(rutas.rutaAssets + "/js"))
 });
+gulp.task('serveprod', function() {
+  connect.server({
+    root: [your_project_path],
+    port: process.env.PORT || 5000, // localhost:5000
+    livereload: false
+  });
+});
 
 gulp.task("observar", function(){
 	gulp.watch('index.html',['assets']);

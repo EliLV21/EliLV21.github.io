@@ -23,6 +23,11 @@ body{
 	margin: 0;
 	overflow: hidden;
 }
+.prueba{
+	position: absolute;
+	top: 50%;
+	left: 35%;
+}
 /* ---NAV--- */
 .container {
   width: 100%;
