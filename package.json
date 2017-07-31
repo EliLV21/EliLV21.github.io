@@ -23,9 +23,7 @@
     "gulp-obfuscate": "^0.2.9",
     "gulp-uglify": "^3.0.0",
     "materialize-css": "^0.100.1",
-    "skeleton-css": "^2.0.4"
-  },
-  "devDependencies": {
+    "skeleton-css": "^2.0.4",
     "gulp-browserify": "^0.5.1"
   }
 }
