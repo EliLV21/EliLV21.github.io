@@ -2,7 +2,6 @@ var gulp = require("gulp");
 var uglify = require("gulp-uglify");
 var obfuscate = require("gulp-obfuscate");
 var browserify = require("gulp-browserify");
-var browserSync = require("browser-sync").create();
 
 var rutas = {
 	rutaCSS: 'assets/css/*.css',

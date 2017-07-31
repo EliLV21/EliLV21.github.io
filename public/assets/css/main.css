@@ -26,10 +26,10 @@ body{
 .container > .row > .col {
   padding: 0;
 }
-.nav{
+nav{
 	background-color: rgba(156, 104, 79, .5);
 }
-a{
+a {
 	font-size: 2rem;
 }
 #logo{
@@ -55,19 +55,20 @@ a{
 	background-size: cover;
 	background-attachment: fixed;
 	margin-top: 0;
-	padding-top: 3%;
+	padding-top: 7%;
 	padding-bottom: 6%;
 	color: #000;
 }
 .textoTamanio{
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .textoTamanio-medio{
-	font-size: 1rem;
+	font-size: 1.5rem;
 	line-height: normal;
+	font-stretch: condensed;
+	font-weight: bold;
 }
 .textoFijo{
-  font-size: 2rem;
   background-color: rgba(156, 104, 79, .6);
   border-radius: 10%;
   padding: 10%;
@@ -102,5 +103,9 @@ a{
 	width: 100%;
 	padding: 7%;
 	margin-top: 70%;
-	margin-bottom: 850%;
+	margin-bottom: 91%;
+}
+footer{
+	background-color: rgba(156, 104, 79, .6);
+	padding: 1%;
 }
