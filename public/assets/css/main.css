@@ -55,7 +55,7 @@ a {
 	width: 100%;
 	z-index: 1;
 }
-#titulo{
+.titulo{
 	font-family: 'LaneSub', sans-serif;
 	font-weight: bolder;
 	font-size: 5em;
@@ -121,13 +121,20 @@ a {
   padding-bottom: 3%;
 }
 /* ---CONTACTOS--- */
+#contacto{
+	 padding-top: 6%;
+}
 .contactos{
 	width: 100%;
 	padding: 7%;
-	margin-top: 70%;
+	margin-top: 10%;
 	margin-bottom: 91%;
 }
+/* ---FOOTER--- */
 footer{
 	background-color: rgba(156, 104, 79, .6);
 	padding: 1%;
+}
+.imgFooter{
+	width: 100%;
 }

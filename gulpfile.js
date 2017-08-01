@@ -64,7 +64,7 @@ gulp.task("observar", function(){
 	gulp.watch(rutas.rutaCSS,['prepararCSS']);
 	gulp.watch(rutas.rutasJS,['prepararJS']);
 	gulp.watch(rutas.rutaViews,['views']);
-	gulp.watch(rutas.rutaViews,['imgs']);
-	gulp.watch(rutas.rutaViews,['assets']);
-	gulp.watch(rutas.rutaViews,['estilos']);
+	gulp.watch(rutas.rutaImg,['imgs']);
+	gulp.watch(rutas.rutaNodeModules,['assets']);
+	gulp.watch('index.html',['estilos']);
 });
