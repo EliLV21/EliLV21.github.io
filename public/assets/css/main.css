@@ -43,7 +43,7 @@ body{
   padding: 0;
 }
 nav{
-	background-color: rgba(156, 104, 79, .5);
+	background-color: rgba(156, 104, 79, .5) !important;
 }
 a {
 	font-size: 2rem;

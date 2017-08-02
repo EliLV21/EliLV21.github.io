@@ -1,8 +1,9 @@
 @media screen and (max-width: 320px) {
 	.prueba{
-		position: absolute;
-		top: 10%;
-		left: 0;
+		display: none;
+	}
+	#inicio{
+		display: none;
 	}
 	#logo{
 		width: 50%;
@@ -24,6 +25,140 @@
 	}
 	#foto-personal{
 		display: none;
+	}
+	.carousel{
+		height: 300px;
+		padding: 0;
+		margin: 0;
+	}
+	#logoFooter{
+		width: 70%;
+	}
+}
+@media screen and (min-width:321px) and (max-width: 413px) {
+	.prueba{
+		display: none;
+	}
+	#inicio{
+		display: none;
+	}
+	#logo{
+		width: 40%;
+		margin-top: .5%;
+		margin-left: 3%;
+	}
+	.titulo{
+		font-size: 3em;
+	}
+	#nombre{
+	  font-size: 2.5rem;
+	}
+	#carrera{
+	  font-size: 1.7rem;
+	}
+
+	.oculto{
+		display: none;
+	}
+	#foto-personal{
+		display: none;
+	}
+	.carousel{
+		height: 300px;
+		padding: 0;
+		margin: 0;
+	}
+	#logoFooter{
+		width: 70%;
+	}
+}
+@media screen and (min-width:381px) and (max-width: 480px) {
+	.prueba{
+		display: none;
+	}
+	#inicio{
+		display: none;
+	}
+	#logo{
+		width: 50%;
+		margin-top: .5%;
+		margin-left: 3%;
+	}
+	.titulo{
+		font-size: 3em;
+	}
+	#nombre{
+	  font-size: 2.8rem;
+	}
+	#carrera{
+	  font-size: 2rem;
+	}
+
+	.oculto{
+		display: none;
+	}
+	#foto-personal{
+		display: none;
+	}
+	.carousel{
+		height: 300px;
+		padding: 0;
+		margin: 0;
+	}
+	#logoFooter{
+		width: 70%;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.prueba{
+		display: none;
+	}
+	#inicio{
+		display: none;
+	}
+	#logo{
+		width: 20%;
+		margin-top: .5%;
+		margin-left: 3%;
+	}
+	.titulo{
+		font-size: 3em;
+	}
+	#nombre{
+	  font-size: 2.5rem;
+	}
+	#carrera{
+	  font-size: 1.7rem;
+	}
+	.carousel{
+		height: 300px;
+		padding: 0;
+		margin: 0;
+	}
+	#logoFooter{
+		width: 70%;
+	}
+}
+@media screen and (min-width: 769px) and (max-width:1024px){
+	.prueba{
+		display: none;
+	}
+	#inicio{
+		display: none;
+	}
+	#logo{
+		width: 17%;
+		margin-top: .5%;
+		margin-left: 3%;
+	}
+	.titulo{
+		font-size: 3em;
+	}
+	#nombre{
+	  font-size: 2.5rem;
+	}
+	#carrera{
+	  font-size: 1.7rem;
 	}
 	.carousel{
 		height: 300px;
