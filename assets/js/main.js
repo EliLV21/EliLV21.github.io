@@ -4,7 +4,7 @@ $(document).ready(function(){
 		  closeOnClick: true,
 		  menuWidth: 150,
 		  onOpen: function(el) {  },
-      onClose: function(el) { }
+      	onClose: function(el) { }
 
 	  });
     });
