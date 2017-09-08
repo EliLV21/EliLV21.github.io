@@ -90,6 +90,12 @@ a {
 	font-stretch: condensed;
 	font-weight: bold;
 }
+.textoGrosorMedio{
+	font-weight: 600;
+}
+.textoGrosor{
+	font-weight: 900;
+}
 .textoFijo{
   background-color: rgba(156, 104, 79, .6);
   border-radius: 10%;
